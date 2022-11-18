@@ -1,0 +1,126 @@
+
+.navbar{
+  background-color: white;
+  height:54px;
+  margin: 0 0 30px 0;
+}
+
+::placeholder{
+  text-align: center;
+  font-size: 14px;
+  color: gray;
+  background-position: 40%;
+  background-size: 6%;
+  background-image: ("/assets/search-solid.svg");
+}
+
+input.empty {
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: inherit;
+  background-color: #FAFAFA;
+}
+
+.postuserfont {
+  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  color: black;
+}
+
+.storyphoto {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 2px solid rgb(238, 39, 82);
+  margin-right: 7px;
+}
+
+.storytext {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 12px;
+  color: black;
+  text-align: bottom;
+}
+
+.rightpanel{
+  background-color: white;
+  border: none;
+}
+
+.rightpanellinks {
+  text-decoration: none;
+  color: lightgrey;
+}
+
+.rightpanellinks:hover {
+  text-decoration: none;
+  color: lightgrey;
+}
+.stickysidebar{
+  position: -webkit-sticky;
+  position: sticky;
+  top: 60px;
+}
+
+.middlearea{
+  height: 200px !important;
+}
+
+.card{
+  margin-bottom: 5px ;
+}
+
+.card-footer{
+  background-color: white;
+  border-color: rgb(235, 235, 235);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI',Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans','Helvetica Neue', sans-serif;
+  font-size: 14px;
+}
+
+.card-header{
+  background-color: white;
+  font-size: 14px;
+  border: none;
+}
+
+.card-header>img{
+  width:35px;
+  height: 35px;
+  border-radius: 50%;
+}
+
+.card-footer>.share{
+  color: #0095f6; 
+  opacity: 50%;
+  float: right;
+}
+
+.fa-paper-plane{
+  color: black;
+  position: relative;
+  font-size: 23px;
+  margin-left: -11px;
+}
+
+.fa-bookmark{
+  color: black; 
+  position: relative; 
+  font-size: 23px; 
+  float: right;
+}
+
+.fa-comment{
+  color: black;
+  position: relative;
+  font-size: 23px;
+  margin-left: -11px;
+}
+
+.follow{
+  float: right;
+}
+.navbar-collapse{
+  padding-left: 25%;
+}
